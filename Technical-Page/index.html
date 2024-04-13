@@ -3,56 +3,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/techdoc.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav id="navbar">
-      <header>Notion Documentation</header>
+      <header>Web Application Documentation</header>
       <ul>
-        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Introduction">Course Outline</a></li>
         <li>
           <a class="nav-link" href="#What_you_should_already_know"
-            >What you should already know</a
+            >Client-Side vs. Server-Side Development</a
           >
         </li>
         <li>
           <a class="nav-link" href="#JavaScript_and_Java"
-            >JavaScript and Java</a
+            >Overview of Web Technologies</a
           >
         </li>
-        <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
-        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Hello_world">Git</a></li>
+        <li><a class="nav-link" href="#Variables">HTML Elements</a></li>
         <li>
           <a class="nav-link" href="#Declaring_variables"
-            >Declaring variables</a
-          >
+            >Introduction to HTML, CSS and Javascript</a>
         </li>
-        <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
-        <li>
-          <a class="nav-link" href="#Global_variables">Global variables</a>
-        </li>
-        <li><a class="nav-link" href="#Constants">Constants</a></li>
-        <li><a class="nav-link" href="#Data_types">Data types</a></li>
-        <li>
-          <a class="nav-link" href="#if...else_statement"
-            >if...else statement</a
-          >
-        </li>
-        <li><a class="nav-link" href="#while_statement">while statement</a></li>
-        <li>
-          <a class="nav-link" href="#Function_declarations"
-            >Function declarations</a
-          >
+        <li><a class="nav-link" href="#Variable_scope">Advanced Git Commands</a></li>
         </li>
         <li><a class="nav-link" href="#Reference">Reference</a></li>
       </ul>
     </nav>
     <main id="main-doc">
       <section class="main-section" id="Introduction">
-        <header>Introduction</header>
+        <header>Course Outline</header>
         <article>
           <p>
-            Notion is a versatile tool that can be used to create and management documentation for various purposes. Whether you're looking to organize team documentation, create a documentation site, or structure and document code projects, Notion offers a range of features to help you achieve these goals.
+            Web Application Development involves structuring the content in a logical and progressive manner, covering key concepts and skills necessary for developing web applications. This outline assumes a basic understanding of HTML, CSS, and JavaScript.
           </p>
 
 
@@ -76,364 +60,167 @@
         </article>
       </section>
       <section class="main-section" id="What_you_should_already_know">
-        <header>Setting Up Notion</header>
+        <header>Client-Side vs. Server-Side Development</header>
         <article>
-          <p>When setting up Notion, there are several key aspects to consider based on the information available:</p>
-
+          
           <ul>
+            <h3>Client-Side Development</h3>
             <li>
-              Differentiating Between Members and Guests: Notion allows for the distinction between members and guests, each with varying levels of access and permissions within the workspace. Understanding the roles of members and guests is crucial for effectively managing collaborative projects and controlling access to sensitive information.
+              <b>Definition:</b> Client-side development refers to the activities that take place on the user's device and involve the user interface and user experience.
             </li>
 
             <li>
-              Creating a Homepage for Managing Campaigns: Utilizing Notion's capabilities to create a homepage for managing campaigns can provide a centralized location for organizing and tracking various aspects of a project. This can include integrating media such as images, PDFs, or YouTube videos within blocks, as well as embedding Figma files, Google Calendars, and Asana tasks directly into Notion.</li>
+              <b>Technologies:</b> HTML(Hypertext MarkUp Language), CSS(Cascading Style Sheet), Javascript, and various front-end frameworks and libraries like React, Angular, or Vue.js.</li>
             <li>
-              Collaborating Tech Specs with a Team: Notion offers features for seamless collaboration, including the ability to edit multiple rows or cards in a database simultaneously, move selected blocks around, and expand or close all toggles in a toggle list using keyboard shortcuts. These functionalities enhance team productivity and streamline the management of technical specifications.
+              <b>Advantage:</b> <br>Fastand responsive user interfaces. <br> Reduces server load as certain operations are performed on the client's side. <br>Enhance user experience with dynamic and interactive elements.
+            </li>
+            <h3>Server-Side Development</h3>
+            <li>
+              <b>Definition:</b>  Server-side development involves activities that occur on the web server, managing and processing data, handling requests, and performing various server-related operations.
             </li>
             <li>
-              Understanding Permission and Access Control in Notion: Noton provides options for setting up access control and permission, allowing administrators to define who can view, edit, or manage specific content within the workspace. The aspect is essential for maintaining data security and ensuring that the right individuals have appropriate access.
+              <b>Technologies:</b> Server-side languages such as PHP, Python (Django), Ruby (Ruby on Rails), Java (Spring), and JavaScript (Node.js).
             </li>
             <li>
-              Customizing and Styling Content: Notion offers extensive customization options, including the ability to add icons, change cover images, and set up status properties for automated filtering. Additionally, users can customize the typography style for each page, making it a versatile platform for creating visually appealing and organized content.
+              <b>Advantages</b> <br>Enhanced security as sensitive operations are performed on the server. <br>centralized control over data and business logic. <br>Better scalability for handling a large number of users.
             </li>
-            <li>
-              Navigating with the Sidebar: The expandable sidebar in Notion serves as a navigation system, providing access to pages, databases, settings, and other tools. It allows for nesting pages inside each other for organizational purposes and offers features such as following pages, moving pages, and searching within the workspace.
-            </li>
+            <h3>Interaction Between Client-Side and Server-Side</h3>
+            <li><b>Communication:</b> Both sides communicate through protocols like HTTP(S), and they exchange data using formats like JSON or XML.</li>
+            <li><b>Workflow:</b> A typical web application involves the client making requests to the server, and the server responds with the necessary data or performs actions.</li>
+            <h3>Full-Stack Development</h3>
+            <li><b>Definition:</b> Developers who work on both client-side and server-side aspects are known as full-stack developers.</li>
+            <li><b>Responsibilities:</b> Full-stack developers have a broader skill set and can handle tasks ranging from designing user interfaces to managing server infrastructure.</li>
           </ul>
         </article>
       </section>
       <section class="main-section" id="JavaScript_and_Java">
-        <header>Working with Blocks</header>
+        <header>Overview of Web Technologies</header>
         <article>
+
+
+          <h3>Internet Basics:</h3>
+          <li>Global network of interconnected computers</li>
+          <li>Enables communication, information sharing and collaboration.</li>
+          <h3>Evolution of the World Wide Web</h3>
           <p>
-            Working with Blocks in Notion encompasses a range of functionalities and features that enable users to create , organize, and customize content within the platform. 
+            <b>Historical Development:</b> Birth of the World Wide Web (WWW) by Tim Berners-Lee in 1989. <br> The birth of the Internet can be traced back to the late 1960s and early 1970s with the development of ARPANET (Advanced Research Projects Agency Network), a pioneering network that laid the groundwork for the interconnected global network we know today. Here are key milestones in the birth and early development of the Internet.
+            <br> <b>Arpanet Creation (1969):</b> ARPANET, the first packet-switching network, was developed by the United States Department of Defense's Advanced Research Projects Agency (ARPA, now DARPA). <br>On October 29, 1969, ARPANET's first message was sent between two computers at the University of California, Los Angeles (UCLA) and the Stanford Research Institute (SRI). The message was "LOGIN.
+            <b>Development of TCP/IP (1970s):</b> The Transmission Control Protocol (TCP) and Internet Protocol (IP) were developed by Vinton Cerf and Bob Kahn. <br> TCP/IP became the standardized communications protocol suite for ARPANET, forming the foundation for the entire Internet.
+            <h3>Key Internet Protocol</h3>
+            <li><b>HTTP (Hypertext Transfer Protocol):</b> <br>Foundation of data communication on the web. <br>Defines how messages are formatted and transmitted</li>
+            <li><b>HTTPS (Hypertext Transfer Protocol Secure):</b> <br>Secure version of HTTP using encryption (SSL/TLS). <br>Ensure secure data transfer, especially for sensitive information.</li>
+            <li><b>TCP/IP (Transmission Control Protocol/Internet Protocol):</b><br>Fundamental suite of protocols for internet communication. <br>Facilitates reliable data transmission between connected devices.</li>
+            <h3>Client-Server Architecture</h3>
+            <li><b>Roles:</b><br>Client request services or resources. <br>Servers provide requested services or resources.</li>
+            <li><b>Request-Response Cycle:</b><br>Client send request to servers. <br>Servers process requests and send back responses.</li>
+            <li><b>Statelessness:</b><br>Each request from a client to a server is independent. <br>No retention of client state between requests</li>
+            <h3>Internet Technologies</h3>
+            <li><b>HTML (Hypertext Markup Language):</b><br>Standard markup language for creating web pages. <br>Defines structure and layout using tags.</li>
+            <li><b>CSS (Cascading Style Sheets):</b><br>Style sheet language for describing the presentation of a document. <br>Enhances the visual presentation of HTML elements.</li>
+            <li><b>JavaScript:</b><br>Programming language that enables dynamic content on web pages. <br>Enhances interactivity and user experience</li>
+            <h3>Responsive Web Design</h3>
+            <li><b>Importance:</b><br>Ensures web applications work well on various devices and screen sizes. <br>Enhances user experience across desktops, tablets, and mobile devices.</li>
+            <li><b>Media Queries:</b><br>CSS technique for applying styles based on device characteristics. <br>CSS technique for applying styles based on device characteristics.</li>
+            <h3>Conclusion</h3>
+            <li><b>Key Takeaways:</b><br>The Internet is a global network connecting computers. <br>The World Wide Web facilitates information sharing and dynamic content. <br>Protocols like HTTP, HTTPS, and TCP/IP underpin internet communication. <br>Client-server architecture involves clients making requests and servers providing responses.</li>
           </p>
 
-          <header>Understanding the Concept of Blocks in Notion</header>
-          <p>
-            Notion's content creation revolves around the concept of blocks, which are modular units of content that can be easily manipulated and organized. Blocks can include text, images, databases, to-do lists, embeds, and more, providing a flexible framework for structuring information and collaborating on various types of content.
-          </p>
-          <header>Utilizing Various Block Types for Content Creation</header>
-          <p>
-            Notion offers a diverse set of block types, each serving specific purposes. These include text blocks for written content, database blocks for structured data organization, embed blocks for integrating external content, and multimedia blocks for incorporating images, videos, and other media. By leveraging these block types, users can create rich and dynamic content within Notion.
-          </p>
-          <header>Customizing and Styling Blocks</header>
-          <p>
-            Notion allows for extensive customization and styling of blocks, enabling users to add icons, change cover images, and apply different formatting options to enhance the visual appeal of their content. Additionally, Notion's block properties and settings provide flexibility in tailoring the appearance and behavior of individual blocks to suit specific requirements.
-          </p>
-          <header>Advanced Block Functionalities and Integrations</header>
-          <p>
-            Beyond basic content creation, Notion supports advanced block functionalities such as inline databases, linked databases, and relational databases, allowing for sophisticated data management and organization within the platform. Furthermore, integrations with third-party tools and services enable seamless embedding of external content and data sources into Notion pages.
-          </p>
+
         </article>
       </section>
       <section class="main-section" id="Hello_world">
-        <header>Customization and Collaboration</header>
+        <header>Git</header>
         <article>
-          <header>Extensive Customization Options within Notion</header>
-          <p>Notion offers  extensive custominization options, allowing users to tallor their workspace to suit their specific needs and preferences. From customizing te visual apperance of pages and databases to defining properties and filters with databases, Notion provides a high degree of flexibility for created a personalized and organized work environment.</p>
-
-          <header>Real-Time Collaboration Features</header>
-          <p>Notion's real-time collaboration features enable teams to work together seamlessly on documents, databases, and projects. Multiple users can simultaneously edit and contribute to content, track changes, and engage in discussions within the platform. This real-time collaboration fosters efficient teamwork and enhances productivity, especially in remote or distributed work environments.</p>
-          <header>Task Assignment and Project Tracking within Notion</header>
-          <p>Notion supports task assigning to-dos to team members, setting due dataes, and creating kanban boards for visual project management. These capabilities empower teams to efficiency allocate tasks, monitor progress and stay organized within a unified workspace, streamlining project workflows and improving accountability.</p>
-          <header>Integrating Notion with other Productivity Tools</header>
-          <p>Notion's integrations with various productivity tools and services enable seamless connectivty and data synchronization. By integrating with applications such as Google drive, Trello, Slack, and others, users can consolidate their workflow and access external resources directly within Notion, reducing context switching  and enhancing overall productivity.</p>
+          <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. <br><br> Git is easy to learn and has a tiny footprint with light fast performance. It outclasses SCM tools like Subversion, CSV, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.</p>
         </article>
+
       </section>
       <section class="main-section" id="Variables">
-        <header>Access and Integration</header>
-        <p>
-          Notion's capabilities extend beyond internal content creation and collaboration, encompassing access control and integration with external services.
-        </p>
-        <header>Access Control and Security Integration</header>
-        <p>
-          Notions's approach to access control and security integration aligns with the needs of commercial and educational facilities. The platform's emphasis 
-        <p><b>Parameter and Arguments:</b> Functions can take aprameters as inputs, and these parameters can be used as variables within the function. When a function is called, the actual values provided aare called arguments.</p>
-        <p>
-          <b>Return Statement:</b> Functions can return a value using the return statement, which allows the function to send data back to the caller.
-        </p>
-        <header>Modules</header>
-        <p>Modules in Python are files containing Python code. They can define functions, classes, and variables, and can also include runnable code. Here's what you should know about modules:</p>
-        <p><b>Importing Modules:</b> To use the code defined in a module, it must be imported into the current Python script using the import statement.</p>
-        <p><b>Namespaces:</b> Modules create a separate namespace, which helps in avoiding naming conflicts and organizes the code logically.</p>
-        <p><b>Standard Library and Third-Party Modules:</b> Python comes with a rich standard library, and there are countless third-party modules available for various purposes.
-        </p>
-        <br>
-        <p>Importance of Functions and Modules
+        <header>Html Elements</header>
+          <h3>Basic HTML</h3>
+          <img src="htnl.png">
+          <h3>Formatting</h3>
+          <img src="html2.png" alt="formating">
+          <h3>Forms and Input</h3>
+          <img src="html3.png" alt="form">
+          <h3>Frames</h3>
+          <img src="html4.png" alt="">
+          <h3>Images</h3>
+          <img src="html5.png" alt="">
+          <h3>Audio / Video</h3>
+          <img src="html6.png" alt="">
+          <h3>Links</h3>
+          <img src="html7.png" alt="">
 
-          Functions and modules are essential for creating organized, reusable, and scalable code. They promote modularity, making it easier to maintain, debug, and extend codebases. Additionally, they facilitate code reuse, which is a fundamental principle of software development.
-          
-          
-          Understanding how to define, use, and organize functions and modules is crucial for writing efficient and maintainable Python code.</p>
+
       </section>
       <section class="main-section" id="Declaring_variables">
-        <header>Creating a Table of Contents in Notion</header>
+        <header>Introduction to HTML, CSS and Javascript</header>
         <article>
+          <h3>HTML (HyperText Markup Language):</h3>
+          <p>
+            HTML is the standard markp language used to create the structure and content of web pages.
+          </p>
+          <p>
+            HTML5 is the latest version of HTML, and it introduces new features and improvements over its predecessors.
+          </p>
+          <p>
+            It provides tags and attributes that define the various elements on a web page, such as headings, paragraphs, images, links, forms, and more.
+          </p>
+          <p>
+            HTML5 also includes new elements like header, nav, article, section, footer, which help in structuring the content more semantically.
+          </p>
 
-          <p>
-            Data structures are fundamental constructs that allows you to organize and store data in a way that enables efficient access and modification. Python provides several built-in data structures that widely used in various application.
-          </p>
-          <p>
-            <b>Lists:</b> Lists are ordered collections of items, and they are mutable, meaning their elemets can be changed after the list is created. Lists are defined using square brackets [].
-          </p>
-          <p>
-            <code><b>Example:</b><br> #Creating a lists <br>
-            my_list =[1,2,3,4,5]</code>
-          </p>
-          <p><b>Tuples:</b> Tuples are similar to lists, but they are immutable, meaning their elements cannot be changed after the tuple is created. Tuples are defined using parentheses ().</p>
-          <code><b>Example:</b><br>#Creating a tuple <br>my_tuple = (1,2,3,4,5)</code>
+          <h3>CSS (Cascading Style Sheets):</h3>
+          <p>Css is used to style and layout the visual presentation of HTML documents.</p>
+          <p>It allows you to control the colors, fonts, spacing, and positioning of elements on a web page.</p>
+          <p>Css is applied either internally within an Html document, externally in separate stylesheet file, or inline within HTML tags.</p>
+
+          <h3>Javasscript</h3>
+          <p>JavaScript is a scripting language that enables dynamic and interactive behavior on web pages.</p>
+          <p>It can manipulate the content and structure of HTML, handle user input, and communicate with servers (Ajax).</p>
+          <p>JavaScript is commonly used to create features like sliders, form validation, pop-up messages, and more.</p>
+          <p>It can be included directly within HTML documents or linked externally.</p>
         </article>
       </section>
       <section class="main-section" id="Variable_scope">
-        <header>Notion for Documentation and Knowledge Management</header>
+        <header>Advance Git Commands</header>
         <article>
           <p>
-            When you declare a variable outside of any function, it is called a
-            global variable, because it is available to any other code in the
-            current document. When you declare a variable within a function, it
-            is called a local variable, because it is available only within that
-            function.
+            <b>1. Add & Commit</b> <br>
+            You have have added and committed the files this way multiple times, but what if I tell you it can be done in one line with the `-am` flag?
           </p>
+          <code>$ git add .
+            $ git commit -m "new project"</code>
 
           <p>
-            JavaScript before ECMAScript 2015 does not have block statement
-            scope; rather, a variable declared within a block is local to the
-            function (or global scope) that the block resides within. For
-            example the following code will log 5, because the scope of x is the
-            function (or global context) within which x is declared, not the
-            block, which in this case is an if statement.
+            Try this instead, and it will add the file changes and create the commit using the message.
           </p>
-          <code>if (true) { var x = 5; } console.log(x); // 5</code>
+          <code>$ git commit -am "new project"
+
+            [master 17d7675] new project
+            4 files changed, 2 insertions(+), 1 deletion(-)</code>
           <p>
-            This behavior changes, when using the let declaration introduced in
-            ECMAScript 2015.
+            <b>2. Amend</b> <br>You can rename your current commit message using the '--amend' flag and write the new message. This will help you with accidental messages. 
           </p>
 
-          <code
-            >if (true) { let y = 5; } console.log(y); // ReferenceError: y is
-            not defined</code
+          <code>$ git commit --amend -m "Love"
+
+            [master 7b7f891] Love
+            Date: Mon Jan 22 17:57:58 2024 +0500
+            4 files changed, 2 insertions(+), 1 deletion(-)</code
           >
-        </article>
-      </section>
-      <section class="main-section" id="Global_variables">
-        <header>Global variables</header>
-        <article>
-          <p>
-            Global variables are in fact properties of the global object. In web
-            pages the global object is window, so you can set and access global
-            variables using the window.variable syntax.
-          </p>
-
-          <p>
-            Consequently, you can access global variables declared in one window
-            or frame from another window or frame by specifying the window or
-            frame name. For example, if a variable called phoneNumber is
-            declared in a document, you can refer to this variable from an
-            iframe as parent.phoneNumber.
-          </p>
-        </article>
-      </section>
-      <section class="main-section" id="Constants">
-        <header>Constants</header>
-        <article>
-          <p>
-            You can create a read-only, named constant with the const keyword.
-            The syntax of a constant identifier is the same as for a variable
-            identifier: it must start with a letter, underscore or dollar sign
-            and can contain alphabetic, numeric, or underscore characters.
-          </p>
-
-          <code>const PI = 3.14;</code>
-          <p>
-            A constant cannot change value through assignment or be re-declared
-            while the script is running. It has to be initialized to a value.
-          </p>
-
-          <p>
-            The scope rules for constants are the same as those for let block
-            scope variables. If the const keyword is omitted, the identifier is
-            assumed to represent a variable.
-          </p>
-
-          <p>
-            You cannot declare a constant with the same name as a function or
-            variable in the same scope. For example:
-          </p>
-
-          <code
-            >// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
-            WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
-            //statements }</code
-          >
-          However, object attributes are not protected, so the following
-          statement is executed without problems.
-          <code
-            >const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
-            "otherValue";</code
-          >
-        </article>
-      </section>
-      <section class="main-section" id="Data_types">
-        <header>Data types</header>
-        <article>
-          <p>The latest ECMAScript standard defines seven data types:</p>
-          <ul>
-            <li>
-              <p>Six data types that are primitives:</p>
-              <ul>
-                <li>Boolean. true and false.</li>
-                <li>
-                  null. A special keyword denoting a null value. Because
-                  JavaScript is case-sensitive, null is not the same as Null,
-                  NULL, or any other variant.
-                </li>
-                <li>
-                  undefined. A top-level property whose value is undefined.
-                </li>
-                <li>Number. 42 or 3.14159.</li>
-                <li>String. "Howdy"</li>
-                <li>
-                  Symbol (new in ECMAScript 2015). A data type whose instances
-                  are unique and immutable.
-                </li>
-              </ul>
-            </li>
-
-            <li>and Object</li>
-          </ul>
-          Although these data types are a relatively small amount, they enable
-          you to perform useful functions with your applications. Objects and
-          functions are the other fundamental elements in the language. You can
-          think of objects as named containers for values, and functions as
-          procedures that your application can perform.
-        </article>
-      </section>
-      <section class="main-section" id="if...else_statement">
-        <header>if...else statement</header>
-        <article>
-          Use the if statement to execute a statement if a logical condition is
-          true. Use the optional else clause to execute a statement if the
-          condition is false. An if statement looks as follows:
-
-          <code>if (condition) { statement_1; } else { statement_2; }</code>
-          condition can be any expression that evaluates to true or false. See
-          Boolean for an explanation of what evaluates to true and false. If
-          condition evaluates to true, statement_1 is executed; otherwise,
-          statement_2 is executed. statement_1 and statement_2 can be any
-          statement, including further nested if statements.
-          <p>
-            You may also compound the statements using else if to have multiple
-            conditions tested in sequence, as follows:
-          </p>
-          <code
-            >if (condition_1) { statement_1; } else if (condition_2) {
-            statement_2; } else if (condition_n) { statement_n; } else {
-            statement_last; }
-          </code>
-          In the case of multiple conditions only the first logical condition
-          which evaluates to true will be executed. To execute multiple
-          statements, group them within a block statement ({ ... }) . In
-          general, it's good practice to always use block statements, especially
-          when nesting if statements:
-
-          <code
-            >if (condition) { statement_1_runs_if_condition_is_true;
-            statement_2_runs_if_condition_is_true; } else {
-            statement_3_runs_if_condition_is_false;
-            statement_4_runs_if_condition_is_false; }</code
-          >
-          It is advisable to not use simple assignments in a conditional
-          expression, because the assignment can be confused with equality when
-          glancing over the code. For example, do not use the following code:
-          <code>if (x = y) { /* statements here */ }</code> If you need to use
-          an assignment in a conditional expression, a common practice is to put
-          additional parentheses around the assignment. For example:
-
-          <code>if ((x = y)) { /* statements here */ }</code>
-        </article>
-      </section>
-      <section class="main-section" id="while_statement">
-        <header>while statement</header>
-        <article>
-          A while statement executes its statements as long as a specified
-          condition evaluates to true. A while statement looks as follows:
-
-          <code>while (condition) statement</code> If the condition becomes
-          false, statement within the loop stops executing and control passes to
-          the statement following the loop.
-
-          <p>
-            The condition test occurs before statement in the loop is executed.
-            If the condition returns true, statement is executed and the
-            condition is tested again. If the condition returns false, execution
-            stops and control is passed to the statement following while.
-          </p>
-
-          <p>
-            To execute multiple statements, use a block statement ({ ... }) to
-            group those statements.
-          </p>
-
-          Example:
-
-          <p>
-            The following while loop iterates as long as n is less than three:
-          </p>
-
-          <code>var n = 0; var x = 0; while (n &lt; 3) { n++; x += n; }</code>
-          <p>
-            With each iteration, the loop increments n and adds that value to x.
-            Therefore, x and n take on the following values:
-          </p>
-
-          <ul>
-            <li>After the first pass: n = 1 and x = 1</li>
-            <li>After the second pass: n = 2 and x = 3</li>
-            <li>After the third pass: n = 3 and x = 6</li>
-          </ul>
-          <p>
-            After completing the third pass, the condition n &lt; 3 is no longer
-            true, so the loop terminates.
-          </p>
-        </article>
-      </section>
-      <section class="main-section" id="Function_declarations">
-        <header>Function declarations</header>
-        <article>
-          A function definition (also called a function declaration, or function
-          statement) consists of the function keyword, followed by:
-
-          <ul>
-            <li>The name of the function.</li>
-            <li>
-              A list of arguments to the function, enclosed in parentheses and
-              separated by commas.
-            </li>
-            <li>
-              The JavaScript statements that define the function, enclosed in
-              curly brackets, { }.
-            </li>
-          </ul>
-          <p>
-            For example, the following code defines a simple function named
-            square:
-          </p>
-
-          <code>function square(number) { return number * number; }</code>
-          <p>
-            The function square takes one argument, called number. The function
-            consists of one statement that says to return the argument of the
-            function (that is, number) multiplied by itself. The return
-            statement specifies the value returned by the function.
-          </p>
-          <code>return number * number;</code>
-          <p>
-            Primitive parameters (such as a number) are passed to functions by
-            value; the value is passed to the function, but if the function
-            changes the value of the parameter, this change is not reflected
-            globally or in the calling function.
-          </p>
+          <p>You can include additional changes to the current commit before pushing it to the remote repository. To do so, you need to add the file changes and then commit using the `--amend` flag. To retain the previous commit message, simply use the `--no-edit` flag.</p>
+          <code>$ git add . 
+            $ git commit --amend --no-edit
+            
+            [master f425059] Love
+            Date: Mon Jan 22 17:57:58 2024 +0500
+            6 files changed, 2 insertions(+), 34 deletions(-)</code>
+          
+          <p><b>3. Revert</b> <br>To undo in Git, you can use the 'revert' command. However, this command does not remove any commits. Instead, it creates a new commit that undoes the changes made by the original commit. <br><br>We will use the 'log' with '--oneline' flag to view commit history in a shorter form.</p>
+          <code>f425059 (HEAD -> master, origin/master) Love
+            8f184d5 first commit</code>
         </article>
       </section>
       <section class="main-section" id="Reference">
@@ -443,9 +230,9 @@
             <li>
               All the documentation in this page is taken from
               <a
-                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+                href="https://primusr.notion.site/Web-Application-Development-c213cf6dbd834f6f8bcc2d02746209db?p=56cf3c3129034dc3a4d138a31297c3b7&pm=s"
                 target="_blank"
-                >MDN</a
+                >Primusr</a
               >
             </li>
           </ul>

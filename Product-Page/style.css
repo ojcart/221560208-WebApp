@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: yel;
   font-family: 'Lato', sans-serif;
 }
 
@@ -40,7 +40,7 @@ a {
   font-size: 1em;
   font-weight: 900;
   text-transform: uppercase;
-  border: 3px black solid;
+  border: 3px pink;
   border-radius: 2px;
   background: transparent;
   cursor: pointer;
@@ -58,7 +58,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: rgb(161, 133, 7)
 }
 
 @media (max-width: 600px) {
